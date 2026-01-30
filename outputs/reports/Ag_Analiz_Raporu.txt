@@ -1,0 +1,18 @@
+========================================
+      EMPATECH SOSYAL AĞ ANALİZİ       
+========================================
+
+--- GENEL AĞ METRİKLERİ ---
+Toplam Düğüm                       : 2043
+Toplam Kenar                       : 1916
+Yoğunluk                           : 0.00046
+Ortalama Derece                    : 1.88
+Bağlantılı Mı                      : Hayır
+Bileşen Sayısı                     : 144
+Ağ Çapı (En Büyük Parça)           : 2
+Ort. Yol Uzunluğu (En Büyük Parça) : 1.99
+
+Tespit Edilen Topluluk Sayısı      : 149
+
+========================================
+Rapor Sonu
