@@ -66,14 +66,9 @@ python main.py
 ```
 **Çıktılar**
 Kod başarıyla çalıştığında outputs/ klasörü altında şu sonuçlar üretilir:
-
-| **plots/**  |**reports/**|
-
-|Temel ve Alt Duygu Dağılım Grafikleri.| Ag_Analiz_Raporu.txt |
-
-|Topluluk Analiz Grafikleri.|  Toplam düğüm, kenar, yoğunluk ve topluluk sayısı gibi matematiksel analiz raporu. |
-
-|EmpaTech_ozel_ag.html: İnteraktif Sosyal Ağ Haritası.|
+|  **plots/**  |  **reports/**  |
+| :--- | :--- |
+| • Temel ve Alt Duygu Dağılım Grafikleri<br>• Topluluk Analiz Grafikleri<br>• **EmpaTech_ozel_ag.html** (İnteraktif Ağ Haritası) | • **Ag_Analiz_Raporu.txt**<br>(Toplam düğüm, kenar, yoğunluk ve topluluk sayısı analiz raporu) |
 
 
 ## Proje Ekibi
