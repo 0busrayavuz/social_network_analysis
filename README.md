@@ -3,7 +3,7 @@
 **Proje Grubu:** EmpaTech
 **Konu:** Sosyal Ağ Analizi ve Doğal Dil İşleme ile Toplumsal Tepki Analizi
 
-Bu proje, Türkiye'de yaşanan kadın cinayetlerine karşı sosyal medya platformlarında (özellikle X/Twitter) gösterilen toplumsal tepkileri, kullanıcı etkileşim ağlarını ve duygu durumlarını analiz etmek amacıyla geliştirilmiştir.
+Bu proje, Türkiye'de yaşanan kadın cinayetlerine karşı sosyal medya platformlarında (X) gösterilen toplumsal tepkileri, kullanıcı etkileşim ağlarını ve duygu durumlarını analiz etmek amacıyla geliştirilmiştir.
 
 Proje kapsamında kullanılan **tüm veriler araştırma ekibimiz tarafından özgün olarak toplanmış ve etiketlenmiştir.** Herhangi bir hazır veri seti kullanılmamış olup; paylaşımlar ve bu paylaşımlara gelen yorumlar arasındaki etkileşim ağları haritalandırılmış, içerikler Temel Duygular (Pozitif, Negatif, Nötr) ve Alt Duygular (Öfke, Empati, Umutsuzluk, İğrenme vb.) bazında sınıflandırılarak görselleştirilmiştir.
 
@@ -27,16 +27,17 @@ Proje kapsamında kullanılan **tüm veriler araştırma ekibimiz tarafından ö
 
 ## Proje Dosya Yapısı
 
-* **social-network-analysis/**
-    * **data/**: Ekibimiz tarafından oluşturulan özgün veri seti
-    * **src/**: Kaynak kod dosyaları
-        * `__init__.py`: Modül yöneticisi
-        * `data_loader.py`: Veri yükleme ve temizleme işlemleri
-        * `analysis.py`: Ağ metrikleri ve hesaplamalar
-        * `visualization.py`: Grafik çizimleri ve ağ görselleştirme
-    * **main.py**: Projeyi başlatan ana dosya
-    * **requirements.txt**: Gerekli Python kütüphaneleri
-    * **README.md**: Proje dokümantasyonu
+```text
+social-network-analysis/
+├── data/               # (Erişim İzne Tabidir - Detaylar aşağıdadır)
+├── src/                # Kaynak kod dosyaları
+│   ├── __init__.py     # Modül yöneticisi
+│   ├── data_loader.py  # Veri yükleme ve temizleme işlemleri
+│   ├── analysis.py     # Ağ metrikleri ve hesaplamalar
+│   └─ visualization.py # Grafik çizimleri ve ağ görselleştirme
+├── main.py             # Projeyi başlatan ana dosya
+├── requirements.txt    # Gerekli Python kütüphaneleri
+└── README.md           # Proje dokümantasyonu
 
 ## Kurulum ve Çalıştırma
 
@@ -64,6 +65,16 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+```
+🔒 Veri Setine Erişim ve Etik Politikası
+Bu projede kullanılan veri seti, Kişisel Verilerin Korunması Kanunu (KVKK) ve etik kurallar gereği herkese açık olarak paylaşılmamıştır. Veri seti, X kullanıcılarının kadın cinayetleri postlarındaki yorumlarını ve kullanıcı adlarını içermektedir.
+
+Akademik araştırmalar veya doğrulama çalışmaları için veri setine ihtiyaç duyan araştırmacılar, aşağıdaki bağlantı üzerinden erişim izni talep edebilirler:
+
+🔗 https://drive.google.com/file/d/1q-fu7W6_pm-YOcXy_cs-Ac1SQNsGI5_2/view?usp=drive_link
+
+Not: Veri seti yalnızca akademik/bilimsel amaçlı kullanımlar için, kullanıcı isimleri anonimleştirilerek paylaşılabilir.
+
 **Çıktılar**
 Kod başarıyla çalıştığında outputs/ klasörü altında şu sonuçlar üretilir:
 |  **plots/**  |  **reports/**  |
