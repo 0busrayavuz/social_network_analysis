@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-```
+
 🔒 Veri Setine Erişim ve Etik Politikası
 Bu projede kullanılan veri seti, Kişisel Verilerin Korunması Kanunu (KVKK) ve etik kurallar gereği herkese açık olarak paylaşılmamıştır. Veri seti, X kullanıcılarının kadın cinayetleri postlarındaki yorumlarını ve kullanıcı adlarını içermektedir.
 
