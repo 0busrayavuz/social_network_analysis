@@ -1,21 +1,22 @@
-# Python gereksiz önbellek dosyaları (yüklenmemeli)
+# Python gereksiz dosyalari
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Sanal Ortam (En önemlisi bu! Asla yüklenmemeli)
+# Sanal Ortam 
 .venv/
 env/
 venv/
 ENV/
 
-# IDE ayarları (VS Code vs. senin kişisel ayarların)
+# IDE ayarlari 
 .idea/
 .vscode/
 *.swp
 
+data/
 
-# İşletim sistemi dosyaları
+# Sistem dosyalari
 .DS_Store
 Thumbs.db
