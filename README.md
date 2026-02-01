@@ -38,6 +38,7 @@ social-network-analysis/
 ├── main.py             # Projeyi başlatan ana dosya
 ├── requirements.txt    # Gerekli Python kütüphaneleri
 └── README.md           # Proje dokümantasyonu
+```
 
 ## Kurulum ve Çalıştırma
 
